@@ -89,7 +89,7 @@ public class MainFrame extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(350, 400));
+        setPreferredSize(new java.awt.Dimension(350, 500));
 
         jScrollPane1.setViewportView(jTextPane1);
 
