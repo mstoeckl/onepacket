@@ -89,8 +89,9 @@ public class MainFrame extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(350, 500));
+        setPreferredSize(new java.awt.Dimension(400, 500));
 
+        jTextPane1.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
         jScrollPane1.setViewportView(jTextPane1);
 
         getContentPane().add(jScrollPane1, java.awt.BorderLayout.CENTER);
