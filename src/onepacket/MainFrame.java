@@ -89,6 +89,8 @@ public class MainFrame extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("One Packet");
+        setIconImage(new javax.swing.ImageIcon(getClass().getResource("icon.png")).getImage());
         setPreferredSize(new java.awt.Dimension(400, 500));
 
         jTextPane1.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
